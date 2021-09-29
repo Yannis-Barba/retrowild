@@ -1,9 +1,9 @@
 /* RETROWILD-CONTACT : START */
 
 body {
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #containerFormContact {
@@ -11,8 +11,11 @@ body {
   flex-direction: column;
   text-align: center;
   background-color: #fafafa;
-  margin: 10vh 20vw 10vh;
-  /* margin: 30% 5% 30%; */
+  margin-top: 15vh;
+  min-width: 300px;
+  width: 40vw;
+  max-width: 650px;
+  max-height: 700px;
   border: solid var(--primary-color);
   border-radius: 20px;
   padding-bottom: 10px;
