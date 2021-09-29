@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>RetroWild-Contact</title>
+</head>
+<body>
+    <div id="containerFormContact" class="container containerFormContact">
+        <h2>CONTACT</h2>
+        <form action="contact.html" method="get" class="formContact">
+            <div id ="firstNameForm"class="fieldForm">
+              <label for="firstName" class="labelFormContact"></label>
+              <input type="text" name="firstName" id="firstName" class="inputFormContact"required placeholder="Enter your first Name: ">
+            </div>
+            <div id ="lastNameForm"class="fieldForm">
+                <label for="lastName" class="labelFormContact"></label>
+                <input type="text" name="lastName" id="lastName" class="inputFormContact" required placeholder="Enter your Last Name: ">
+              </div>
+            <div id="emailForm" class="fieldForm">
+              <label for="email" class="labelFormContact"></label>
+              <input type="email" name="email" id="email" class="inputFormContact" required placeholder="Enter your email: ">
+            </div>
+
+            <div id="commentForm" class="fieldForm">
+                <label for="comment" class="labelFormContact"> Exprime toi !</label>
+                <textarea rows="10" cols ="30" name="comment" id="comment" class="commentFormContact" required></textarea>
+            </div>
+            <div class="form-example">
+              <button class="button"> Envoyer ! </button>
+            </div>
+          </form>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* RETROWILD-CONTACT : START */
+
+#containerFormContact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fafafa;
+  margin: 30% 5% 30%;
+  border: solid var(--primary-color);
+  border-radius: 20px;
+  padding-bottom: 10px;
+}
+
+#containerFormContact > h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.fieldForm {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px;
+}
+
+.labelFormContact {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.inputFormContact {
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 20px;
+}
+
+.commentFormContact {
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+#comment {
+  resize: none;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  padding: 10px 20px 10px;
+  border-radius: 20px;
+  border-color: var(--third-color);
+}
+/* RETROWILD-CONTACT : END */
