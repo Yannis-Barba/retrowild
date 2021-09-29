@@ -2,6 +2,7 @@
   --primary-color: #2a7b9b;
   --secondary-color: #eddd53;
   --third-color: #c70039;
+  --background-color: #fffcfc;
 }
 
 body {
@@ -14,4 +15,44 @@ body {
   background-image: url('/assets/fond_body.png');
   background-repeat: no-repeat;
   background-position: cover;
+}
+
+.containerHome {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--background-color);
+  border-radius: 20px;
+  border: solid 2px var(--primary-color);
+  border-color: var(--primary-color);
+  min-height: 450px;
+}
+
+.tileDivImg {
+  width: 100%;
+  height: 40%;
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.tileImg {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.tileTitle {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.tileText {
+  color: var(--primary-color);
 }
