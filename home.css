@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+
+.gameFrame{
+    display: flex;
+    position: absolute;
+    width: 402px;
+    height: 688px;
+    left: 82px;
+    top: 159px;
+}
