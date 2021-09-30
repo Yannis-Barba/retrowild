@@ -7,6 +7,7 @@
 
 body {
   --background-img: '/assets/fond_body.png';
+  background-repeat: no-repeat;
 }
 
 /*  Body settings   */
@@ -15,23 +16,28 @@ body {
   background-image: url('/assets/fond_body.png');
   background-repeat: no-repeat;
   background-position: cover;
+  height: 100vh;
 }
 
 .containerHome {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .tile {
   display: flex;
   flex-direction: column;
   text-align: center;
+  gap: 10px;
   background-color: var(--background-color);
   border-radius: 20px;
   border: solid 2px var(--primary-color);
   border-color: var(--primary-color);
   min-height: 450px;
+  max-width: 300px;
 }
 
 .tileDivImg {
@@ -55,4 +61,15 @@ body {
 
 .tileText {
   color: var(--primary-color);
+}
+
+@media only screen and (min-width: 650px) {
+  .containerHome {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tileTitle {
+    color: var(--third-color);
+  }
 }
