@@ -33,7 +33,8 @@ section{
     padding: 16px;
     width: auto;
     height: 64px;
-    background-color: #F5F1F1;    
+    background-color: #F5F1F1;
+    border-radius: 0 0 5px 5px;    
 }
 
 .logo a img{    
@@ -101,9 +102,12 @@ img.close.show{
     margin: 4% 3%;
     height: 560px;
     width: 80%;
+    max-width: 375px;
     border-radius: 20px;
     
 }
+
+/* Footer */
 
 .footer{
     display: flex;
@@ -113,6 +117,7 @@ img.close.show{
     padding-top: 4px;
     width: 100%;
     height: 32px;
+    border-radius: 5px 5px 0 0;
 }
 
 
@@ -121,6 +126,13 @@ img.close.show{
     height: 24px;
     width: 24px;
     
+}
+
+.footer p{
+    padding-top: 8px;
+    font-family: Gameplay;
+    font-size: 8px;
+    font-weight: 100;
 }
 
 /* Desktop */
