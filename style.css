@@ -8,6 +8,8 @@
 body {
   --background-img: '/assets/fond_body.png';
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
 }
 
 /*  Body settings   */
@@ -20,6 +22,7 @@ body {
 }
 
 .containerHome {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
