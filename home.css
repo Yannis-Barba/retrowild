@@ -1,23 +1,148 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    position: relative;
+    box-sizing: border-box;    
 }
 
-nav{
+@font-face {
+    font-family: "Gameplay";
+    src: url("/assets/fonts/Gameplay.ttf");
+    font-style: normal;
+    font-weight: 100;
+  }
+
+  @font-face {
+    font-family: "Karmatic Arcade";
+    src: url("/assets/fonts/ka1.ttf");
+    font-style: normal;
+    font-weight: 100;
+  }
+
+html {
+    background: url("./assets/fond_body.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 8%;
+    padding: 16px;
+    width: auto;
+    height: 64px;
+    background-color: #F5F1F1;    
 }
 
+.logo a img{    
+    border: 0;
+    height: auto;
+    width: 60%;    
+}
+
+nav.navigation{
+    display: none;
+}
+
+nav.navigation.active{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    left: 0px;
+    top: 64px;
+    width: 100%;
+    height: 100%;
+    background-color: #F5F1F1;
+    font-weight: bold;
+}
+
+nav.navigation.active a{
+    padding: 20px;
+    color: #2a7b9b;
+    font-family: Gameplay;
+    font-size: 20px;
+    font-weight: 100;
+    text-decoration: none;
+    padding-bottom: 24px;        
+}
+
+img.menu.hide{
+    display: none;
+}
+
+img.close{
+    display: none;
+}
+
+img.close.show{
+    display: flex;
+}
 
 .gameFrame{
     display: flex;
-    position: absolute;
-    width: 402px;
-    height: 688px;
-    left: 82px;
-    top: 159px;
+    flex-direction: column;
+        
+}
+
+.gameFrame div{
+    background-color: black;
+    margin: 3% 3%;
+    height: 580px;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 991px) {
+    nav.navigation{
+        display: flex;
+    }
+    
+    .logo a img{
+    
+        border: 0;
+        height: auto;
+        width: auto;
+        margin-left: 20px;
+        
+    }
+
+    nav.navigation a{
+        font-size: 20px;
+        transition: color 0.8s ease 0s;
+        color: #2a7b9b;
+        padding: 20px;
+        font-family: Gameplay;
+        font-weight: bold;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    nav.navigation a:hover{
+        color: #eddd53;
+    }
+
+    div.toggleBox{
+        display: none;
+    }
+
+    .gameFrame{
+        display: flex;
+        flex-direction: row;
+            
+    }
+
+    .gameFrame div{
+        background-color: black;
+        margin: 3% 3%;
+        height: 688px;
+        width: 27%;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
 }

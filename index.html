@@ -9,33 +9,39 @@
 </head>
 <body>
     <!--Header-->
-    <div class="navbar">
-        <div class="container flex-nav">
-            <div class="navHeader">
-                <a class="logo" href="#"><img src="assets/logo.png" alt="logo"></a>
-                <button class="nav-toggle" id="nav-toggle">
-
-                </button>
-            </div>
+    <section>
+        
+        <div class=logo>
+            <a class="logo" href="#"><img src="assets/rwLogo2.png" alt="logo"></a>
         </div>
-    </div>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Score</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+        </nav>
+
+        <div class="toggleBox">
+            <a onclick="showMenu()" href="#"><img class="menu" src="assets/burgerMenu.svg"><img class="close" src="assets/closeBtn.svg"></a>
+        
+        </div>
+    </section>
 
     <!--gameFrames-->
-    <div class=gameFrame>
-
+    <div class="gameFrame">
+        <div></div>
+        <div></div>
+        <div></div>
     </div>
 
-    <script scr="script.js"></script>
+
+    <script>
+        function showMenu(){
+    document.querySelector(".navigation").classList.toggle("active");
+    document.querySelector(".menu").classList.toggle("hide");
+    document.querySelector(".close").classList.toggle("show");
+}
+    </script>
 </body>
 </html>
-
-<nav class=navbar>
-    <a class="logo" href="#"><img src="assets/logo.png" alt="logo"></a>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Score</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Contact us</a></li>
-    </ul>
-    <button type="button">click here</button>
-</nav>
