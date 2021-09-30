@@ -1,15 +1,21 @@
 /* RETROWILD-CONTACT : START */
 
-body {
+/* body {
   display: flex;
   justify-content: center;
   align-items: center;
+} */
+#container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 #containerFormContact {
   display: flex;
   flex-direction: column;
   text-align: center;
+
   background-color: #fafafa;
   margin-top: 15vh;
   min-width: 300px;

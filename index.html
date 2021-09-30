@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="home.css">
+
     <title>RetroWild Homepage</title>
 </head>
 <body>
@@ -16,10 +19,10 @@
         </div>
 
         <nav class="navigation">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">Score</a>
-            <a href="#">About us</a>
-            <a href="#">Contact us</a>
+            <a href="about.html">About us</a>
+            <a href="contact.html">Contact us</a>
         </nav>
 
         <div class="toggleBox">
@@ -29,19 +32,30 @@
     </section>
 
     <!--gameFrames-->
-    <div class="gameFrame">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div id="containerHome" class="containerHome">
+
     </div>
 
+    <!-- Footer -->
+    
+    <div class=footer>
+        <a href="#"><img class="lnkdnLogo" src="assets/linkedin.svg"></a>
+        <p>© 2021 Copyright: WildCodeSchool/error500</p>
+        <a href="#"><img class="ghLogo" src="assets/github.svg"></a> 
+    </div>
+    
+    
 
+
+    <script src="script.js"></script>
     <script>
         function showMenu(){
     document.querySelector(".navigation").classList.toggle("active");
     document.querySelector(".menu").classList.toggle("hide");
     document.querySelector(".close").classList.toggle("show");
 }
+
+
     </script>
 </body>
 </html>
