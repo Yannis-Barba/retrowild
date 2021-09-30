@@ -1,0 +1,163 @@
+/*  RETROWILD-ABOUT : START    */
+/* body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+img {
+    border-radius:30px;
+    width: 70%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: contrast(70%);
+    filter: saturate(180%);
+    overflow: hidden;
+    position: relative;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height: 100vh;
+
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.socialNetwork {
+    display: flex;
+    flex-direction: row;
+}
+.socialNetwork img {
+    width: 20%;
+}
+.github {
+    align-items: flex-start;
+    padding: 130px;
+} 
+
+.info {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color: black;
+    white-space: pre;
+    margin-left:10px;
+    font-weight: bold;
+    
+}
+
+.info >div {
+    position: relative;
+    bottom: 57px;
+    right: 42px;
+}
+
+.main {
+    font-weight:bold;
+    font-size:1.2rem;
+ } */
+
+/*  RETROWILD-ABOUT : END    */
+
+
+
+img {
+  height: 100%;
+  width: 100%;
+  border-top-radius: 30px;
+
+}
+
+.btn {
+  border: 1px solid black;
+  color:gray;
+  padding: 0.5rem;
+  text-transform: lowercase;
+}
+
+.btn--block {
+  display: block;
+  width: 100%;
+}
+ 
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards__item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+
+.card__content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.card__image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: contrast(70%);
+  filter: saturate(180%);
+  overflow: hidden;
+  position: relative;
+
+   
+  }
+
+
+.card__title {
+  color: gray;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.card__text {
+  flex: 1 1 auto;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.socialNetwork{
+width: 10%;
+display: flex;
+flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    font-size: 76px;
+}
