@@ -4,6 +4,8 @@
     box-sizing: border-box;    
 }
 
+
+
 @font-face {
     font-family: "Gameplay";
     src: url("/assets/fonts/Gameplay.ttf");
@@ -22,7 +24,6 @@ html {
     background: url("./assets/fond_body.png") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
   }
 
 section{
@@ -81,21 +82,43 @@ img.close.show{
     display: flex;
 }
 
+/* Tuiles */
+
 .gameFrame{
     display: flex;
     flex-direction: column;
-        
+    justify-content: center;
+    align-items: center;    
 }
 
 .gameFrame div{
     background-color: black;
-    margin: 3% 3%;
-    height: 580px;
+    margin: 4% 3%;
+    height: 560px;
     width: 80%;
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
+    
 }
+
+.footer{
+    display: flex;
+    background-color: #F5F1F1;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-top: 4px;
+    width: 100%;
+    height: 32px;
+}
+
+
+.footer img{
+    
+    height: 24px;
+    width: 24px;
+    
+}
+
+/* Desktop */
 
 @media only screen and (min-width: 991px) {
     nav.navigation{
