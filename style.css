@@ -84,6 +84,7 @@ body {
 #buttonAddTile {
   width: 100px;
   height: 100px;
+  position: static;
   background-color: var(--background-color);
   border: solid 2px var(--secondary-color);
   border-radius: 100px;
