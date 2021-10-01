@@ -15,11 +15,11 @@ var paddleWidth = 70;
 var paddleX = (canvas.width - paddleWidth)/2;
 var rightPress = false;
 var leftPress = false;
-var brickRowCount = 3;
-var brickColumnCount = 5;
+var brickRowCount = 10;
+var brickColumnCount = 12;
 var brickWidth = 75;
 var brickHeight = 20;
-var brickPadding = 10;
+var brickPadding = 5;
 var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
 var score = 0;
@@ -98,7 +98,7 @@ function collisionDect(){
 		for(r = 0; r < brickRowCount; r++){
 			var b = bricks[c][r];
 			if(b.status === 1){
-				//calculations
+				//CALCUL 
 				if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight){
 					dy = -dy;
 					b.status = 0;
@@ -188,3 +188,4 @@ draw();
 
 
 //      ETABLIR FONCTION SCORE ! 
+

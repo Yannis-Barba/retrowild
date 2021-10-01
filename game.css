@@ -1,5 +1,5 @@
 * {
-	padding: 0px;
+	padding: 50%;
 	margin: 0px;
 }
 
@@ -11,14 +11,24 @@ body {
 h1 {
 	text-align: center;
 	margin-top: 2%;
-	margin-bottom: 2%;
+	margin-bottom: 3%;
 	font-family: 'Gameplay', sans-serif;
 }
+
+h2{
+	text-align: center;
+	margin-top: 10%;
+	margin-bottom: -7%;
+	font-family: 'Gameplay', sans-serif;
+	font-size: 35px; 
+}
+
+
 
 #myCanvas {
 	background-color: #000000ec;
 	display: block;
-	margin:0 auto;
+	margin: 0 auto;
 	border-radius: 10px;
 }
 
@@ -28,25 +38,37 @@ h1 {
 .parentScore{
 	background-color: #000000ec;
 	display: flex ;
-	margin: 0px 380px;
+	margin: 10%;
 	height: auto;
-	border-radius: 10px;
-	border: 2px solid #eddd53;
 }
 
-.medalOne{
-	max-width: 30px;
-	max-height: 25px;
+.medals{
+	font-size: 40px; 
 }
 
-ul li {
+table {
 	font-family: 'Gameplay', sans-serif;
+	margin:auto; 
+
+  }
+   th {
 	color:#eddd53; 
-	display: inline;
-	padding: 40px; 
-	list-style: none;  
-}
+	font-size: 25px;
+  }
+  
+  th, td {
+	padding: 60px;
+	text-align: center;
+  }
+
+  td{
+	color:aliceblue;
+	font-size: 20px;
+  }
 
 
 /*ANIMATION BORDER*/ 
-
+.animationBorder{ 
+border-radius: 10px;
+	border: 10px solid #eddd53;
+}
