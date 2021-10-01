@@ -1,0 +1,127 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Breakout Game JS</title>
+	<link rel="stylesheet" type="text/css" href="./game.css">
+	<link rel="stylesheet" type="text/css" href="./home.css">
+	<script type="text/javascript" src="./game.js"></script>
+</head>
+
+<body>
+
+	<!-- NAV BAR-->
+
+	<section>
+
+		<div class=logo>
+			<a class="logo" href="#"><img src="assets/rwLogo2.png" alt="logo"></a>
+		</div>
+
+		<nav class="navigation">
+			<a href="#">Home</a>
+			<a href="#">Score</a>
+			<a href="#">About us</a>
+			<a href="#">Contact us</a>
+		</nav>
+
+		<div class="toggleBox">
+			<a onclick="showMenu()" href="#"><img class="menu" src="assets/burgerMenu.svg"><img class="close"
+					src="assets/closeBtn.svg"></a>
+
+		</div>
+	</section>
+
+	<!-- GAME -->
+	
+	<div>
+		<h1>Breakout Game</h1>
+
+		<canvas id="myCanvas" width="480" height="320"></canvas>
+		<script type="text/javascript" src="./game.js"></script>
+	</div>
+
+
+	<h1>SCOREBOARD</h1>
+
+	<div class="parentScore">
+		<div class="childScore">
+			<table class="scoreBox">
+				<ul>
+					<li>POSITION</li>
+					<li>PLAYER NAME</li>
+					<li>SCORE</li>
+				</ul>
+
+				<ul>
+					<li><img src="assets/medal-131982518852435091_0.svg" alt="Number1" class="medalOne"> </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 2TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 3TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 4TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 5TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 6TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 7TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 8TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li>9TH</li>
+					<li>NAME</li>
+					<li>...</li>
+				</ul>
+
+				<ul>
+					<li> 10TH </li>
+					<li> NAME</li>
+					<li>...</li>
+				</ul>
+		</div>
+	</div>
+
+	<script>
+		function showMenu() {
+			document.querySelector(".navigation").classList.toggle("active");
+			document.querySelector(".menu").classList.toggle("hide");
+			document.querySelector(".close").classList.toggle("show");
+		}
+	</script>
+</body>
+
+</html>

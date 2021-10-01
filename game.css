@@ -1,0 +1,52 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	--background-img:"/assets/fond_body.png" ;
+	background-image: url("/assets/fond_body.png");
+}
+
+h1 {
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-family: 'Gameplay', sans-serif;
+}
+
+#myCanvas {
+	background-color: #000000ec;
+	display: block;
+	margin:0 auto;
+	border-radius: 10px;
+}
+
+
+/* TABLEAU */
+
+.parentScore{
+	background-color: #000000ec;
+	display: flex ;
+	margin: 0px 380px;
+	height: auto;
+	border-radius: 10px;
+	border: 2px solid #eddd53;
+}
+
+.medalOne{
+	max-width: 30px;
+	max-height: 25px;
+}
+
+ul li {
+	font-family: 'Gameplay', sans-serif;
+	color:#eddd53; 
+	display: inline;
+	padding: 40px; 
+	list-style: none;  
+}
+
+
+/*ANIMATION BORDER*/ 
+
