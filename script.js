@@ -47,3 +47,59 @@ addTile(
   'Snake Game',
   'Texte sur le Snake Game'
 );
+
+addTile(
+  'containerHome',
+  'assets/brick_breaker.PNG',
+  'Brick Breaker',
+  'Texte sur le Brick Breaker'
+);
+
+addTile(
+  'containerHome',
+  'assets/snake_game.png',
+  'Snake Game',
+  'Texte sur le Snake Game'
+);
+
+addTile(
+  'containerHome',
+  'assets/brick_breaker.PNG',
+  'Brick Breaker',
+  'Texte sur le Brick Breaker'
+);
+
+addTile(
+  'containerHome',
+  'assets/snake_game.png',
+  'Snake Game',
+  'Texte sur le Snake Game'
+);
+
+addTile(
+  'containerHome',
+  'assets/brick_breaker.PNG',
+  'Brick Breaker',
+  'Texte sur le Brick Breaker'
+);
+
+addTile(
+  'containerHome',
+  'assets/snake_game.png',
+  'Snake Game',
+  'Texte sur le Snake Game'
+);
+
+addTile(
+  'containerHome',
+  'assets/brick_breaker.PNG',
+  'Brick Breaker',
+  'Texte sur le Brick Breaker'
+);
+
+addTile(
+  'containerHome',
+  'assets/snake_game.png',
+  'Snake Game',
+  'Texte sur le Snake Game'
+);
