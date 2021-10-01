@@ -68,7 +68,8 @@ table {
 
 
 /*ANIMATION BORDER*/ 
-.animationBorder{ 
-border-radius: 10px;
+.box { 
+	border-radius: 10px;
 	border: 10px solid #eddd53;
 }
+
