@@ -6,20 +6,20 @@
 
 @font-face {
   font-family: 'Gameplay';
-  src: url('/assets/fonts/Gameplay.ttf');
+  src: url('Gameplay.c3fcde86.ttf');
   font-style: normal;
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Karmatic Arcade';
-  src: url('/assets/fonts/ka1.ttf');
+  src: url('ka1.c126a065.ttf');
   font-style: normal;
   font-weight: 100;
 }
 
 html {
-  background: url('./assets/fond_body.png') no-repeat center center fixed;
+  background: url('fond_body.02c43d56.png') no-repeat center center fixed;
   background-size: cover;
   height: 100%;
 }
@@ -179,3 +179,5 @@ img.close.show {
     align-items: center;
   }
 }
+
+/*# sourceMappingURL=index.a9e1be4c.css.map */
