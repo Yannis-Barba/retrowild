@@ -14,25 +14,7 @@
 </head>
 <body>
     <!--Header-->
-    <section>
-        
-        <div class=logo>
-            <a class="logo" href="#"><img src="assets/rwLogo2.png" alt="logo"></a>
-        </div>
-
-        <nav class="navigation">
-            <a href="index.html">Home</a>
-            <a href="#">Score</a>
-            <a href="about.html">About us</a>
-            <a href="contact.html">Contact us</a>
-        </nav>
-
-        <div class="toggleBox">
-            <a onclick="showMenu()" href="#"><img class="menu" src="assets/burgerMenu.svg"><img class="close" src="assets/closeBtn.svg"></a>
-        
-        </div>
-    </section>
-
+    <include src="header.html"></include>
     <!--gameFrames-->
     <div id="page">
         <div id="containerHome" class="containerHome">
@@ -47,24 +29,18 @@
     </div>
     <!-- Footer -->
     
-    <div class=footer>
-        <a href="#"><img class="lnkdnLogo" src="assets/linkedin.svg"></a>
-        <p>© 2021 Copyright: WildCodeSchool/error500</p>
-        <a href="#"><img class="ghLogo" src="assets/github.svg"></a> 
-    </div>
-    
+    <include src="footer.html"></include>
     
 
-
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
     <script>
         function showMenu(){
     document.querySelector(".navigation").classList.toggle("active");
     document.querySelector(".menu").classList.toggle("hide");
     document.querySelector(".close").classList.toggle("show");
-}
-
+        }
 
     </script>
+    
 </body>
 </html>

@@ -1,9 +1,12 @@
+import snakeImg from './assets/snake_game.png'
+import brickImg from './assets/brick_breaker.PNG'
+
 // function to add tiles (new wiki about an old game)
 
 function createTile(srcImg, title, text) {
   const newTile = document.createElement('div');
   const newImg = document.createElement('img');
-  newImg.src = srcImg;
+  newImg.src = srcImg
 
   const newTitle = document.createElement('h3');
   newTitle.innerHTML = title;
@@ -34,16 +37,18 @@ function addTile(idContainer, srcImg, title, text) {
   container.appendChild(newDiv);
 }
 
+
+
 addTile(
   'containerHome',
-  'assets/brick_breaker.PNG',
+ brickImg,
   'Brick Breaker',
   'Texte sur le Brick Breaker'
 );
 
 addTile(
   'containerHome',
-  'assets/snake_game.png',
+  snakeImg,
   'Snake Game',
   'Texte sur le Snake Game'
 );
