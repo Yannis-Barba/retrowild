@@ -27,92 +27,108 @@
 
 		<div class="toggleBox">
 			<a onclick="showMenu()" href="#"><img class="menu" src="assets/burgerMenu.svg"><img class="close"
-					src="assets/closeBtn.svg"></a>
+			src="assets/closeBtn.svg"></a>
 
 		</div>
 	</section>
 
 	<!-- GAME -->
-	
-	<div>
-		<h1>Breakout Game</h1>
 
-		<canvas id="myCanvas" width="480" height="320"></canvas>
+	<div>
+
+		<h1>Breakout Game</h1>
+		
+		<!--CANVAS contient l'ensemble de l'élément Jeu-->
+		
+		<canvas id="myCanvas" width="1015%" height="500"></canvas> 
 		<script type="text/javascript" src="./game.js"></script>
+
 	</div>
 
+	<!-- SCOREBOARD -->
+	
+	<h2>SCOREBOARD</h2>
 
-	<h1>SCOREBOARD</h1>
+	<div class="parentScore box">
 
-	<div class="parentScore">
-		<div class="childScore">
-			<table class="scoreBox">
-				<ul>
-					<li>POSITION</li>
-					<li>PLAYER NAME</li>
-					<li>SCORE</li>
-				</ul>
+		<table class="my_table">
+			<tr>
+				<th>POSITION</th>
+				<th>PLAYER NAME</th>
+				<th>SCORE</th>
+			</tr>
 
-				<ul>
-					<li><img src="assets/medal-131982518852435091_0.svg" alt="Number1" class="medalOne"> </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			<tr>
+				<td class="medals">🥇</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 2TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			<tr>
+				<td class="medals">🥈</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 3TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td class="medals">🥉</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 4TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td>4TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 5TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td>5TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 6TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td>6TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 7TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td>7TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 8TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td>8TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li>9TH</li>
-					<li>NAME</li>
-					<li>...</li>
-				</ul>
+			</tr>
+			<tr>
+				<td>9TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
 
-				<ul>
-					<li> 10TH </li>
-					<li> NAME</li>
-					<li>...</li>
-				</ul>
-		</div>
+			</tr>
+			<tr>
+				<td>10TH</td>
+				<td>NAME</td>
+				<td>...</td>
+			</tr>
+
+
+		</table>
+
 	</div>
 
 	<script>
@@ -122,6 +138,7 @@
 			document.querySelector(".close").classList.toggle("show");
 		}
 	</script>
+
 </body>
 
 </html>

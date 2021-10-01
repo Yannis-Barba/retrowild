@@ -3,22 +3,15 @@
   --secondary-color: #eddd53;
   --third-color: #c70039;
   --background-color: #ffffff;
-}
-
-body {
-  --background-img: '/assets/fond_body.png';
-  background-repeat: no-repeat;
-  display: flex;
-  flex-direction: column;
+  --background-img: url('/assets/fond_body.png');
 }
 
 /*  Body settings   */
 
 body {
-  background-image: url('/assets/fond_body.png');
-  background-repeat: no-repeat;
-  background-position: cover;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: var(--background-img);
 }
 
 #page {

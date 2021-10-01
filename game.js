@@ -1,10 +1,27 @@
+/* LEXIQUE : 
+
+beginPath(); closePath(); = Toute les instuctions ctx. canvas se trouvre entre. Elle agissent comme des balises {}
+
+ctx.rect = Paddle 
+ctx.fill = Stoke la couleur utilisé
+
+ctx.arc = Balle 
+
+*/ 
+
+
+
+
 /* CANVAS */ 
 
 var canvas = document.getElementById('myCanvas');
+
+/* var ctx STOCK LE CONTEXTE DE RENDU 2D*/
 var ctx = canvas.getContext('2d'); 
 
 /* DEFINITION DES VARIABLES */
 
+/* DEPLACEMENT DE LA BALLE */
 var x = canvas.width/2;
 var y = canvas.height  - 30;
 var dx = 2;
@@ -15,15 +32,16 @@ var paddleWidth = 70;
 var paddleX = (canvas.width - paddleWidth)/2;
 var rightPress = false;
 var leftPress = false;
-var brickRowCount = 3;
-var brickColumnCount = 5;
+var brickRowCount = 10;
+var brickColumnCount = 12;
 var brickWidth = 75;
 var brickHeight = 20;
-var brickPadding = 10;
+var brickPadding = 5;
 var brickOffsetTop = 30;
 var brickOffsetLeft = 30;
 var score = 0;
 var lives = 3;
+
 
 var bricks = [];
 for (c=0; c<brickColumnCount; c++){
@@ -77,8 +95,11 @@ function drawBricks(){
 
 function drawBall(){
 	ctx.beginPath();
+	
+	/* ctx.arc = Ball (x, y, centre de l'arc, rayon de l'arc, angle de départ, angle de fin, direction du dessin) */ 
 	ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-  	ctx.fillStyle = "#c70039";
+  	
+	ctx.fillStyle = "#c70039";
 	ctx.fill();
 	ctx.closePath();
 }
@@ -86,7 +107,9 @@ function drawBall(){
 /* PADDLE */
 
 function drawPaddle(){
+
 	ctx.beginPath();
+	/* ctx.rect = Paddle */ 
 	ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
 	ctx.fillStyle = "#c70039";
 	ctx.fill();
@@ -98,7 +121,7 @@ function collisionDect(){
 		for(r = 0; r < brickRowCount; r++){
 			var b = bricks[c][r];
 			if(b.status === 1){
-				//calculations
+				//CALCUL 
 				if(x > b.x && x < b.x+brickWidth && y > b.y && y < b.y+brickHeight){
 					dy = -dy;
 					b.status = 0;
@@ -131,7 +154,7 @@ function drawLives(){
 
 
 /* CLEAR LES CANVAS APRÈS 10MS */ 
-
+/* Fonction boucle de dessin */ 
 function draw(){
 	ctx.clearRect(0, 0, canvas.width, canvas.height);
 	drawBricks();
@@ -175,6 +198,7 @@ function draw(){
 	requestAnimationFrame(draw);
 }
 
+
 document.addEventListener("mousemove", mouseMoveHandler);
 
 function mouseMoveHandler(e){
@@ -188,3 +212,4 @@ draw();
 
 
 //      ETABLIR FONCTION SCORE ! 
+
