@@ -63,3 +63,75 @@ addTile(
 );
 
 addTile('containerHome', snakeImg, 'Snake Game', 'Texte sur le Snake Game');
+// function add a Tile linked with a button 
+
+// add a form on click 
+
+const buttonForm = document.querySelector('#buttonAddTile');
+buttonForm.addEventListener('click', () => {
+  const container = document.querySelector('#containerHome');
+  const divForm = createForm();
+  container.appendChild(divForm);
+
+  const buttonSubmitForm = document.querySelector('.submitForm');
+  buttonSubmitForm.addEventListener('click', getFormContent('.formAddNewTile'));
+})
+
+// create a form 
+
+function createForm(){
+  const divForm = document.createElement('div');
+  const form = document.createElement('form');
+  const newImg = document.createElement('img');
+  const newTitle = document.createElement('input');
+  const newText = document.createElement('textarea'); 
+  const newButton = document.createElement('input');
+
+  newImg.src = snakeImg;
+  newImg.setAttribute('class', 'tileImg');
+
+  newTitle.setAttribute('type', 'text');
+  newTitle.setAttribute('id', 'titleForm');
+  newTitle.setAttribute('class', 'titleForm');
+  newTitle.setAttribute('placeholder', 'Titre du jeu');
+
+  newText.setAttribute('id', 'textForm');
+  newText.setAttribute('class', 'textForm');
+  newText.setAttribute('placeholder', 'Description du jeu');
+
+  newButton.setAttribute('type', 'button');
+  newButton.setAttribute('id', 'submitForm');
+  newButton.setAttribute('class', 'submitForm');
+  newButton.setAttribute('value', 'Ajouter une nouvelle Tuile');
+
+  form.setAttribute('class', 'formAddNewTile');
+  form.appendChild(newTitle);
+  form.appendChild(newText);
+  form.appendChild(newButton);
+
+  divForm.setAttribute('class', 'tile');
+  divForm.appendChild(newImg);
+  divForm.appendChild(form);
+
+  return divForm;
+}
+
+// add a tile thanks to the form 
+
+function getFormContent(classForm){
+  // return an object with a new image, a text and a description of a game
+  const form = document.querySelector(classForm);
+  const img = form.querySelector('img');
+  const title = form.querySelector('titleForm');
+  const text = form.querySelector('textForm');
+
+  const newTile = {
+    img: img.src, 
+    title: title.value, 
+    text: text.value
+  };
+
+  return newTile;
+}
+
+

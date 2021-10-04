@@ -90,6 +90,19 @@ body {
   color: var(--primary-color);
 }
 
+.form{
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+}
+
+.divForm{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: solid 1px var(--primary-color);
+}
 /* .imgAddTile {
   height: 100%;
   width: 100%;
