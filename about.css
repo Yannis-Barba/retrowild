@@ -1,5 +1,5 @@
  /* RETROWILD-ABOUT : START    */
-.fa-plus {
+ .fa-plus {
   width: 50px;
 
 }
@@ -11,33 +11,17 @@
   transition: 0.3s;
 }
 
-
-
-svg text {
-  font-family: Lora;
-  letter-spacing: 10px;
-  stroke: #000000;
-  font-size: 14px;
-  font-weight: 300;
-  stroke-width: 3px;
-  animation: textAnimate 4s infinite alternate;
-  
+@font-face {
+  font-family: 'Captain';
+  src: url('./assets/fonts/AmericanCaptain.ttf');
+  font-style: normal;
+  font-weight: 100;
 }
 
-@keyframes textAnimate {
-  0% {
-    stroke-dasharray: 0 50%;
-    stroke-dashoffset:  20%;
-    fill:hsl(189, 68%, 75%)
-
-  }
-  
-  100% {
-    stroke-dasharray: 50% 0;
-    stroke-dashoffstet: -20%;
-    fill: hsla(189, 68%, 75%,0%)
-  }
-  
+.titleAbout{
+  font-family: "Gameplay";
+  text-align: center;
+  padding-top: 2%;
 }
 
 .card {
@@ -80,15 +64,18 @@ svg text {
 .card .card-body .name {
   margin-top: 30px;
   font-size: 27px;
-  font-weight: bold;
-  color: #ffffff;
+  font-family: 'Gameplay';
+  color: black;
+  margin-bottom: 3%;
 }
 
 .card .card-body .name:hover {
   margin-top: 30px;
   font-size: 24px;
-  color: #d885af;
+  color: #c70039;
 }
+
+
 
 .card .card-body .mail {
   font-size: 14px;
@@ -101,8 +88,9 @@ svg text {
 }
 
 .card .card-body .job {
-  margin-top: 10px;
-  font-size: 14px;
+  margin-top: 5%;
+  font-size: 20px;
+  font-family: "Captain";
   font-weight: 600;
 }
 
@@ -137,22 +125,10 @@ a.fab.fa-linkedin.social-icon {
 }
 
 .card .social-links .social-icon:hover {
-  background-color: #d885af;
+  background-color:#c70039;
   height: 50px;
   width: 50px;
   text-decoration: none;
-}
-
-
-.card .card-footer {
-  background-color: #f8f5f5;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-  padding: 20px 0 20px 0;
-}
-
-.card .card-footer .count {
-  font-size: 14px;
 }
 
 

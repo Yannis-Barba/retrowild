@@ -208,7 +208,7 @@ function mouseMoveHandler(e){
 	}
 }
 
-draw();
+// draw();
 
 
 //      ETABLIR FONCTION SCORE ! 

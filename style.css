@@ -36,9 +36,9 @@ body {
   flex-direction: column;
   text-align: center;
   gap: 10px;
-  background-color: var(--background-color);
+  background-color: #dddddd;
   border-radius: 20px;
-  border: solid 2px var(--primary-color);
+  box-shadow: 10px 5px 5px #444444;
   border-color: var(--primary-color);
   min-height: 450px;
   max-width: 300px;
@@ -59,8 +59,9 @@ body {
 }
 
 .tileTitle {
-  color: var(--primary-color);
-  font-weight: bold;
+  font-family: "Captain";
+  color: var(--third-color);
+  font-size: 30px;
 }
 
 .tileText {

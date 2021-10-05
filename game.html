@@ -19,10 +19,10 @@
 		</div>
 
 		<nav class="navigation">
-			<a href="#">Home</a>
-			<a href="#">Score</a>
-			<a href="#">About us</a>
-			<a href="#">Contact us</a>
+			<a href="index.html">Home</a>
+			<a href="game.html">Game</a>
+			<a href="about.html">About us</a>
+			<a href="contact.html">Contact us</a>
 		</nav>
 
 		<div class="toggleBox">
@@ -46,10 +46,11 @@
 	</div>
 
 	<!-- SCOREBOARD -->
-	
-	<h2>SCOREBOARD</h2>
+	<div class = "borderH2">
+	<h2 class = "h2Scoreboard flash">SCOREBOARD</h2>
+	</div>
 
-	<div class="parentScore box">
+	<div class="parentScore box bordure-anim">
 
 		<table class="my_table">
 			<tr>
@@ -131,6 +132,10 @@
 
 	</div>
 
+	
+
+	<include src="footer.html"></include>
+	
 	<script>
 		function showMenu() {
 			document.querySelector(".navigation").classList.toggle("active");
@@ -138,6 +143,8 @@
 			document.querySelector(".close").classList.toggle("show");
 		}
 	</script>
+	
+	
 
 </body>
 

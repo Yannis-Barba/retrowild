@@ -1,75 +1,113 @@
 * {
-	padding: 50%;
-	margin: 0px;
+  padding: 50%;
+  margin: 0px;
 }
 
 body {
-	--background-img:"/assets/fond_body.png" ;
-	background-image: url("/assets/fond_body.png");
+  --background-img: '/assets/fond_body.png';
+  background-image: url('/assets/fond_body.png');
 }
 
 h1 {
-	text-align: center;
-	margin-top: 2%;
-	margin-bottom: 3%;
-	font-family: 'Gameplay', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: 'Gameplay', sans-serif;
 }
-
-h2{
-	text-align: center;
-	margin-top: 10%;
-	margin-bottom: -7%;
-	font-family: 'Gameplay', sans-serif;
-	font-size: 35px; 
-}
-
-
 
 #myCanvas {
-	background-color: #000000ec;
-	display: block;
-	margin: 0 auto;
-	border-radius: 10px;
+  background-color: #000000ec;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
 }
-
 
 /* TABLEAU */
 
-.parentScore{
-	background-color: #000000ec;
-	display: flex ;
-	margin: 10%;
-	height: auto;
+.h2Scoreboard {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: -7%;
+  font-family: 'Gameplay', sans-serif;
+  font-size: 35px; 
 }
 
-.medals{
-	font-size: 40px; 
+
+
+.parentScore {
+  background-color: #000000ec;
+  display: flex;
+  margin: 10%;
+  height: auto;
+}
+
+.medals {
+  font-size: 40px;
 }
 
 table {
-	font-family: 'Gameplay', sans-serif;
-	margin:auto; 
+  font-family: 'Gameplay', sans-serif;
+  margin: auto;
+}
+th {
+  color: #eddd53;
+  font-size: 25px;
+}
 
-  }
-   th {
-	color:#eddd53; 
-	font-size: 25px;
-  }
-  
-  th, td {
-	padding: 60px;
-	text-align: center;
+th,
+td {
+  padding: 50px;
+  text-align: center;
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+td {
+  color: aliceblue;
+  font-size: 20px; 
+}
+
+/*ANIMATION*/
+
+.box {
+  border-radius: 10px;
+  border: 10px dashed #eddd53;
+}
+
+/* SCOREBOARD */ 
+.flash {
+  -webkit-animation-name: flash;
+  animation-name: flash;
+  -webkit-animation-duration: 1s;
+  animation-duration: infinite;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-iteration-count: infinite ;
+}
+@-webkit-keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
   }
 
-  td{
-	color:aliceblue;
-	font-size: 20px;
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
   }
 
-
-/*ANIMATION BORDER*/ 
-.box { 
-	border-radius: 10px;
-	border: 10px solid #eddd53;
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
 
