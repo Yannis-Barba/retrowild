@@ -63,3 +63,11 @@ addTile(
 );
 
 addTile('containerHome', snakeImg, 'Snake Game', 'Texte sur le Snake Game');
+
+/*DARK MODE*/
+
+const darkMode = document.getElementById('dark-mode');
+
+darkMode.addEventListener('change', () => {
+  document.body.classList.toggle('dark');
+});

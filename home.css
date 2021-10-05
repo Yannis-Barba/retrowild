@@ -18,12 +18,6 @@
   font-weight: 100;
 }
 
-html {
-  background: url('./assets/fond_body.png') no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-}
-
 section {
   display: flex;
   justify-content: space-between;
@@ -40,6 +34,65 @@ section {
   height: auto;
   width: 60%;
 }
+
+/*BUTTON DARK MODE*/
+
+.checkbox {
+  display: none;
+}
+
+.toggle {
+  margin-bottom: 24px;
+}
+
+.label {
+  height: 16px;
+  width: 40px;
+  background: rgb(182, 182, 182);
+  padding: 1px 2px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  transform: scale(1.2);
+  box-shadow: 2px 1px 1px #333;
+}
+.label .ball {
+  background: #eee;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  position: absolute;
+
+  left: 2px;
+  transform: translateX(0px);
+  transition: transform 0.4s cubic-bezier(0.45, -1.12, 0.35, 1.78);
+}
+.checkbox:checked + .label .ball {
+  transform: translateX(19px);
+}
+.fa-moon {
+  color: #333;
+}
+
+/* DARK MODE */
+.dark {
+  background-image: url('assets/dark_fond_body.png');
+}
+.dark main {
+  background: #eddd53;
+}
+.dark .label {
+  box-shadow: 2px 1px 1px #eddd53;
+  background: #888;
+}
+.dark .ball {
+  background: #eddd53;
+}
+
+/*NAVIGATION*/
 
 nav.navigation {
   display: none;
@@ -136,6 +189,11 @@ img.close.show {
 @media only screen and (min-width: 991px) {
   nav.navigation {
     display: flex;
+  }
+
+  .toggle {
+    margin-top: 24px;
+    margin-right: 24px;
   }
 
   .logo a img {
