@@ -1,4 +1,4 @@
-20170
+20171
 58C:\Users\69hit\retrowild\node_modules\array.prototype.flat132775510992347948 1
 62C:\Users\69hit\retrowild\node_modules\cssstyle\MIT-LICENSE.txt121436361000000000 0
 82C:\Users\69hit\retrowild\node_modules\http-proxy-middleware\dist\handlers\index.js121436361000000000 0
@@ -91,7 +91,7 @@
 44C:\Users\69hit\retrowild\node_modules\is-wsl132775511028481971 1
 81C:\Users\69hit\retrowild\node_modules\error-ex\node_modules\is-arrayish\README.md130849957040000000 0
 91C:\Users\69hit\retrowild\node_modules\postcss-selector-parser\dist\__tests__\nonstandard.js121436361000000000 0
-31C:\Users\69hit\retrowild\assets132779113276841661 1
+31C:\Users\69hit\retrowild\assets132779152047510599 1
 113C:\Users\69hit\retrowild\node_modules\micromatch\node_modules\fill-range\node_modules\extend-shallow\package.json132775511025017260 0
 58C:\Users\69hit\retrowild\node_modules\svgo\lib\svgo\coa.js121436361000000000 0
 43C:\Users\69hit\retrowild\node_modules\gauge132775510991554230 1
@@ -112,7 +112,7 @@
 65C:\Users\69hit\retrowild\node_modules\fast-glob\out\settings.d.ts121436361000000000 0
 74C:\Users\69hit\retrowild\node_modules\@parcel\package-manager\lib\types.js121436361000000000 0
 61C:\Users\69hit\retrowild\node_modules\lodash\fp\forInRight.js121436361000000000 0
-29C:\Users\69hit\retrowild\dist132779131735680136 1
+29C:\Users\69hit\retrowild\dist132779177211901662 1
 89C:\Users\69hit\retrowild\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts.map121436361000000000 0
 55C:\Users\69hit\retrowild\node_modules\lodash\reverse.js121436361000000000 0
 48C:\Users\69hit\retrowild\node_modules\mime-types132775511024915239 1
@@ -194,7 +194,7 @@
 83C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\css-placeholder.js121436361000000000 0
 80C:\Users\69hit\retrowild\node_modules\source-map-support\node_modules\source-map132775511006867436 1
 94C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftbzip2.h132612604640000000 0
-33C:\Users\69hit\retrowild\home.css132779131732982263 0
+33C:\Users\69hit\retrowild\home.css132779177209994585 0
 99C:\Users\69hit\retrowild\node_modules\lmdb-store\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h121436361000000000 0
 51C:\Users\69hit\retrowild\node_modules\end-of-stream132775510990974293 1
 59C:\Users\69hit\retrowild\node_modules\yaml\browser\index.js121436361000000000 0
@@ -4312,7 +4312,7 @@
 66C:\Users\69hit\retrowild\node_modules\uncss\node_modules\commander132775511000734810 1
 87C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\glib-2.0\glib\ghash.h132612604640000000 0
 64C:\Users\69hit\retrowild\node_modules\uncss\node_modules\postcss132775511000658022 1
-66C:\Users\69hit\retrowild\dist\IMG_20210926_152337 (1).58019ba2.jpg132779100892253788 0
+66C:\Users\69hit\retrowild\dist\IMG_20210926_152337 (1).58019ba2.jpg132779152051345550 0
 57C:\Users\69hit\retrowild\node_modules\relateurl\README.md131129763960000000 0
 51C:\Users\69hit\retrowild\node_modules\pify\index.js131403744050000000 0
 80C:\Users\69hit\retrowild\node_modules\uncss\node_modules\postcss-selector-parser132775510999214534 1
@@ -4456,7 +4456,7 @@
 65C:\Users\69hit\retrowild\node_modules\@babel\core\node_modules\ms132775510984313663 1
 64C:\Users\69hit\retrowild\node_modules\parent-module\package.json132775511018137454 0
 104C:\Users\69hit\retrowild\node_modules\table\node_modules\ajv\dist\vocabularies\jtd\optionalProperties.js121436361000000000 0
-46C:\Users\69hit\retrowild\dist\wll.4d9d95d0.jpg132779100892253788 0
+46C:\Users\69hit\retrowild\dist\wll.4d9d95d0.jpg132779152051345550 0
 94C:\Users\69hit\retrowild\node_modules\postcss-modules-values\node_modules\ansi-styles\index.js131644568170000000 0
 100C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\libgsf-1\gsf\gsf-input-iochannel.h132612604640000000 0
 103C:\Users\69hit\retrowild\node_modules\uncss\node_modules\postcss-selector-parser\dist\__tests__\node.js121436361000000000 0
@@ -6488,7 +6488,7 @@
 55C:\Users\69hit\retrowild\node_modules\parcel\src\bin.js121436361000000000 0
 92C:\Users\69hit\retrowild\node_modules\postcss-modules-scope\node_modules\postcss\lib\node.js121436361000000000 0
 62C:\Users\69hit\retrowild\node_modules\stream-http\package.json132775510989688881 0
-47C:\Users\69hit\retrowild\dist\index.849b6a7f.js132779109268350382 0
+47C:\Users\69hit\retrowild\dist\index.849b6a7f.js132779152052824562 0
 78C:\Users\69hit\retrowild\node_modules\stream-http\node_modules\readable-stream132775510994954715 1
 67C:\Users\69hit\retrowild\node_modules\@parcel\optimizer-cssnano\src132775510273382200 1
 73C:\Users\69hit\retrowild\node_modules\core-js\features\instance\reduce.js121436361000000000 0
@@ -7889,7 +7889,7 @@
 89C:\Users\69hit\retrowild\node_modules\parse5\lib\extensions\error-reporting\mixin-base.js121436361000000000 0
 101C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gtlsserverconnection.h132612604640000000 0
 88C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gvolume.h132612604640000000 0
-49C:\Users\69hit\retrowild\dist\github.aff0fae4.svg132775569764841020 0
+49C:\Users\69hit\retrowild\dist\github.aff0fae4.svg132779152052398084 0
 96C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gzlibcompressor.h132612604640000000 0
 53C:\Users\69hit\retrowild\node_modules\fastq\README.md121436361000000000 0
 56C:\Users\69hit\retrowild\node_modules\create-hash\md5.js121436361000000000 0
@@ -11908,7 +11908,7 @@
 55C:\Users\69hit\retrowild\node_modules\lodash\fp\take.js121436361000000000 0
 89C:\Users\69hit\retrowild\node_modules\eslint-module-utils\node_modules\debug\package.json132775511036659689 0
 60C:\Users\69hit\retrowild\node_modules\lodash\fp\takeRight.js121436361000000000 0
-48C:\Users\69hit\retrowild\dist\index.5ed1ac59.css132775569766767158 0
+48C:\Users\69hit\retrowild\dist\index.5ed1ac59.css132779152052814050 0
 59C:\Users\69hit\retrowild\node_modules\lodash\fp\template.js121436361000000000 0
 71C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\eme.js121436361000000000 0
 88C:\Users\69hit\retrowild\node_modules\core-js\internals\object-get-own-property-names.js121436361000000000 0
@@ -12797,7 +12797,7 @@
 73C:\Users\69hit\retrowild\node_modules\@nodelib\fs.scandir\out\utils\fs.js121436361000000000 0
 71C:\Users\69hit\retrowild\node_modules\es-abstract\2018\IsPropertyKey.js121436361000000000 0
 96C:\Users\69hit\retrowild\node_modules\is-negative-zero\.github\workflows\require-allow-edits.yml121436361000000000 0
-45C:\Users\69hit\retrowild\assets\fond_body.png132779113276702904 0
+45C:\Users\69hit\retrowild\assets\fond_body.png132779151676276149 0
 54C:\Users\69hit\retrowild\node_modules\is-nan\.eslintrc121436361000000000 0
 57C:\Users\69hit\retrowild\node_modules\is-nan\CHANGELOG.md121436361000000000 0
 62C:\Users\69hit\retrowild\node_modules\is-nan\implementation.js121436361000000000 0
@@ -13125,7 +13125,7 @@
 72C:\Users\69hit\retrowild\node_modules\iconv-lite\encodings\sbcs-codec.js131794416590000000 0
 65C:\Users\69hit\retrowild\node_modules\iconv-lite\encodings\tables132775510482632214 1
 66C:\Users\69hit\retrowild\node_modules\iconv-lite\encodings\utf7.js131794416590000000 0
-53C:\Users\69hit\retrowild\dist\contact.b5457d54.js.map132775569767004998 0
+53C:\Users\69hit\retrowild\dist\contact.b5457d54.js.map132779152053092829 0
 81C:\Users\69hit\retrowild\node_modules\iconv-lite\encodings\tables\big5-added.json130976329310000000 0
 52C:\Users\69hit\retrowild\node_modules\hmac-drbg\test132775510565684453 1
 74C:\Users\69hit\retrowild\node_modules\eslint\lib\init\source-code-utils.js121436361000000000 0
@@ -13519,7 +13519,7 @@
 61C:\Users\69hit\retrowild\node_modules\@types\json5\index.d.ts131187797390000000 0
 86C:\Users\69hit\retrowild\node_modules\eslint-plugin-import\docs\rules\no-deprecated.md121436361000000000 0
 72C:\Users\69hit\retrowild\node_modules\highlight.js\lib\languages\abnf.js121436361000000000 0
-40C:\Users\69hit\retrowild\dist\about.html132779100892819734 0
+40C:\Users\69hit\retrowild\dist\about.html132779152052814050 0
 77C:\Users\69hit\retrowild\node_modules\highlight.js\lib\languages\accesslog.js121436361000000000 0
 80C:\Users\69hit\retrowild\node_modules\highlight.js\lib\languages\actionscript.js121436361000000000 0
 79C:\Users\69hit\retrowild\node_modules\highlight.js\lib\languages\angelscript.js121436361000000000 0
@@ -15535,7 +15535,7 @@
 83C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\matchesselector.js121436361000000000 0
 67C:\Users\69hit\retrowild\node_modules\es-abstract\2019\ToBoolean.js121436361000000000 0
 70C:\Users\69hit\retrowild\node_modules\es-abstract\2019\ToDateString.js121436361000000000 0
-56C:\Users\69hit\retrowild\dist\brick_breaker.7907cbbf.PNG132775569764860572 0
+56C:\Users\69hit\retrowild\dist\brick_breaker.7907cbbf.PNG132779152051353646 0
 67C:\Users\69hit\retrowild\node_modules\core-js\es\number\to-fixed.js121436361000000000 0
 67C:\Users\69hit\retrowild\node_modules\es-abstract\2019\ToInteger.js121436361000000000 0
 66C:\Users\69hit\retrowild\node_modules\es-abstract\2019\ToLength.js121436361000000000 0
@@ -17914,7 +17914,7 @@
 78C:\Users\69hit\retrowild\node_modules\@parcel\codeframe\test\codeframe.test.js121436361000000000 0
 79C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\import-maps.js121436361000000000 0
 90C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\indeterminate-checkbox.js121436361000000000 0
-53C:\Users\69hit\retrowild\dist\snake_game.6ce26b39.png132775569764921554 0
+53C:\Users\69hit\retrowild\dist\snake_game.6ce26b39.png132779152051353646 0
 78C:\Users\69hit\retrowild\node_modules\@parcel\events\test\ValueEmitter.test.js121436361000000000 0
 77C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\indexeddb.js121436361000000000 0
 78C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\indexeddb2.js121436361000000000 0
@@ -18895,7 +18895,7 @@
 89C:\Users\69hit\retrowild\node_modules\@parcel\transformer-react-refresh-wrap\package.json132775510986348202 0
 88C:\Users\69hit\retrowild\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers132775510280408330 1
 103C:\Users\69hit\retrowild\node_modules\@parcel\transformer-react-refresh-wrap\src\helpers\.eslintrc.json121436361000000000 0
-51C:\Users\69hit\retrowild\dist\index.849b6a7f.js.map132779109268401042 0
+51C:\Users\69hit\retrowild\dist\index.849b6a7f.js.map132779152053044570 0
 111C:\Users\69hit\retrowild\node_modules\@parcel\transformer-react-refresh-wrap\lib\ReactRefreshWrapTransformer.js121436361000000000 0
 99C:\Users\69hit\retrowild\node_modules\@parcel\transformer-react-refresh-wrap\lib\helpers\helpers.js121436361000000000 0
 65C:\Users\69hit\retrowild\node_modules\@parcel\transformer-raw\lib132775510272704527 1
@@ -19196,7 +19196,7 @@
 96C:\Users\69hit\retrowild\node_modules\@parcel\package-manager\test\fixtures\has-foo\package.json121436361000000000 0
 100C:\Users\69hit\retrowild\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo132775510363182428 1
 109C:\Users\69hit\retrowild\node_modules\@parcel\package-manager\test\fixtures\has-foo\node_modules\foo\index.js121436361000000000 0
-51C:\Users\69hit\retrowild\dist\about.dad13d39.js.map132775569766995403 0
+51C:\Users\69hit\retrowild\dist\about.dad13d39.js.map132779152053032899 0
 55C:\Users\69hit\retrowild\node_modules\@babel\code-frame132775511028287228 1
 64C:\Users\69hit\retrowild\node_modules\@parcel\cache\src\types.js121436361000000000 0
 112C:\Users\69hit\retrowild\node_modules\@parcel\package-manager\test\fixtures\has-a-not-yet-installed\package.json121436361000000000 0
@@ -20143,27 +20143,28 @@
 51C:\Users\69hit\retrowild\node_modules\.bin\uuid.ps1132775511053039232 0
 52C:\Users\69hit\retrowild\node_modules\.bin\which.cmd132775511053254836 0
 37C:\Users\69hit\retrowild\assets\fonts132774620109657182 1
-48C:\Users\69hit\retrowild\dist\about.17ae08d3.css132779100892824766 0
-52C:\Users\69hit\retrowild\dist\about.17ae08d3.css.map132779100892925770 0
-47C:\Users\69hit\retrowild\dist\about.dad13d39.js132775569766767158 0
-53C:\Users\69hit\retrowild\dist\burgerMenu.abe049b4.svg132775569764841020 0
-51C:\Users\69hit\retrowild\dist\closeBtn.1a90c2f7.svg132775569764841020 0
-49C:\Users\69hit\retrowild\dist\contact.b5457d54.js132775569766775890 0
-42C:\Users\69hit\retrowild\dist\contact.html132775569766767158 0
-57C:\Users\69hit\retrowild\dist\dark_fond_body.c3c424b2.png132779112551720980 0
-47C:\Users\69hit\retrowild\dist\eder.ceacbb88.jpg132779100892226831 0
-52C:\Users\69hit\retrowild\dist\fond_body.02c43d56.png132779113277745665 0
-51C:\Users\69hit\retrowild\dist\Gameplay.c3fcde86.ttf132775569764841020 0
-52C:\Users\69hit\retrowild\dist\index.5ed1ac59.css.map132775569766995403 0
-48C:\Users\69hit\retrowild\dist\index.8e0184e2.css132779112989820735 0
-52C:\Users\69hit\retrowild\dist\index.8e0184e2.css.map132779112989833782 0
-48C:\Users\69hit\retrowild\dist\index.a9e1be4c.css132779131735641275 0
-52C:\Users\69hit\retrowild\dist\index.a9e1be4c.css.map132779131735670044 0
-40C:\Users\69hit\retrowild\dist\index.html132779103051325396 0
-46C:\Users\69hit\retrowild\dist\ka1.c126a065.ttf132775569764860572 0
-51C:\Users\69hit\retrowild\dist\linkedin.fcc46739.svg132775569764841020 0
+48C:\Users\69hit\retrowild\dist\about.17ae08d3.css132779152052814050 0
+52C:\Users\69hit\retrowild\dist\about.17ae08d3.css.map132779152053032899 0
+47C:\Users\69hit\retrowild\dist\about.dad13d39.js132779152052814050 0
+53C:\Users\69hit\retrowild\dist\burgerMenu.abe049b4.svg132779152052384718 0
+51C:\Users\69hit\retrowild\dist\closeBtn.1a90c2f7.svg132779152052384718 0
+49C:\Users\69hit\retrowild\dist\contact.b5457d54.js132779152052829076 0
+42C:\Users\69hit\retrowild\dist\contact.html132779152052814050 0
+57C:\Users\69hit\retrowild\dist\dark_fond_body.c3c424b2.png132779152051348686 0
+47C:\Users\69hit\retrowild\dist\eder.ceacbb88.jpg132779152051340585 0
+52C:\Users\69hit\retrowild\dist\fond_body.02c43d56.png132779152051345550 0
+51C:\Users\69hit\retrowild\dist\Gameplay.c3fcde86.ttf132779152051348686 0
+52C:\Users\69hit\retrowild\dist\index.5ed1ac59.css.map132779152053124519 0
+48C:\Users\69hit\retrowild\dist\index.8e0184e2.css132779152052814050 0
+52C:\Users\69hit\retrowild\dist\index.8e0184e2.css.map132779152053112346 0
+48C:\Users\69hit\retrowild\dist\index.a9e1be4c.css132779177211851436 0
+52C:\Users\69hit\retrowild\dist\index.a9e1be4c.css.map132779177211885462 0
+40C:\Users\69hit\retrowild\dist\index.html132779152052814050 0
+46C:\Users\69hit\retrowild\dist\ka1.c126a065.ttf132779152051353646 0
+51C:\Users\69hit\retrowild\dist\linkedin.fcc46739.svg132779152052384718 0
 42C:\Users\69hit\retrowild\assets\github.svg132774622127020159 0
-50C:\Users\69hit\retrowild\dist\rwLogo2.1dbc33ba.png132775569764662607 0
+50C:\Users\69hit\retrowild\dist\rwLogo2.1dbc33ba.png132779152051340585 0
+57C:\Users\69hit\retrowild\assets\brick_breaker_resized.png132779150131733227 0
 46C:\Users\69hit\retrowild\assets\burgerMenu.svg132774620109618581 0
 44C:\Users\69hit\retrowild\assets\linkedin.svg132774622127029144 0
 40C:\Users\69hit\retrowild\assets\pictures132779100747104108 1
