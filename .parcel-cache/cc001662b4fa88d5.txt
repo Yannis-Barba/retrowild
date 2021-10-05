@@ -112,7 +112,7 @@
 65C:\Users\69hit\retrowild\node_modules\fast-glob\out\settings.d.ts121436361000000000 0
 74C:\Users\69hit\retrowild\node_modules\@parcel\package-manager\lib\types.js121436361000000000 0
 61C:\Users\69hit\retrowild\node_modules\lodash\fp\forInRight.js121436361000000000 0
-29C:\Users\69hit\retrowild\dist132779177211901662 1
+29C:\Users\69hit\retrowild\dist132779194350112865 1
 89C:\Users\69hit\retrowild\node_modules\css-select\lib\pseudo-selectors\subselects.d.ts.map121436361000000000 0
 55C:\Users\69hit\retrowild\node_modules\lodash\reverse.js121436361000000000 0
 48C:\Users\69hit\retrowild\node_modules\mime-types132775511024915239 1
@@ -194,7 +194,7 @@
 83C:\Users\69hit\retrowild\node_modules\caniuse-lite\data\features\css-placeholder.js121436361000000000 0
 80C:\Users\69hit\retrowild\node_modules\source-map-support\node_modules\source-map132775511006867436 1
 94C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\freetype2\freetype\ftbzip2.h132612604640000000 0
-33C:\Users\69hit\retrowild\home.css132779177209994585 0
+33C:\Users\69hit\retrowild\home.css132779194348391633 0
 99C:\Users\69hit\retrowild\node_modules\lmdb-store\dependencies\lmdb-data-v1\libraries\liblmdb\lmdb.h121436361000000000 0
 51C:\Users\69hit\retrowild\node_modules\end-of-stream132775510990974293 1
 59C:\Users\69hit\retrowild\node_modules\yaml\browser\index.js121436361000000000 0
@@ -223,7 +223,7 @@
 99C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\glib-2.0\gio\gsocketconnectable.h132612604640000000 0
 68C:\Users\69hit\retrowild\node_modules\lmdb-store\prebuilds\win32-x64132775510633302155 1
 57C:\Users\69hit\retrowild\node_modules\whatwg-encoding\lib132775510311090387 1
-35C:\Users\69hit\retrowild\index.html132779100747159790 0
+35C:\Users\69hit\retrowild\index.html132779190739877325 0
 69C:\Users\69hit\retrowild\node_modules\css-tree\lib\tokenizer\index.js121436361000000000 0
 81C:\Users\69hit\retrowild\node_modules\hmac-drbg\test\fixtures\hmac-drbg-nist.json131322706900000000 0
 93C:\Users\69hit\retrowild\node_modules\sharp\vendor\8.10.6\include\libxml2\libxml\xmlunicode.h132612604640000000 0
@@ -20157,9 +20157,9 @@
 52C:\Users\69hit\retrowild\dist\index.5ed1ac59.css.map132779152053124519 0
 48C:\Users\69hit\retrowild\dist\index.8e0184e2.css132779152052814050 0
 52C:\Users\69hit\retrowild\dist\index.8e0184e2.css.map132779152053112346 0
-48C:\Users\69hit\retrowild\dist\index.a9e1be4c.css132779177211851436 0
-52C:\Users\69hit\retrowild\dist\index.a9e1be4c.css.map132779177211885462 0
-40C:\Users\69hit\retrowild\dist\index.html132779152052814050 0
+48C:\Users\69hit\retrowild\dist\index.a9e1be4c.css132779194350036550 0
+52C:\Users\69hit\retrowild\dist\index.a9e1be4c.css.map132779194350081051 0
+40C:\Users\69hit\retrowild\dist\index.html132779190741919620 0
 46C:\Users\69hit\retrowild\dist\ka1.c126a065.ttf132779152051353646 0
 51C:\Users\69hit\retrowild\dist\linkedin.fcc46739.svg132779152052384718 0
 42C:\Users\69hit\retrowild\assets\github.svg132774622127020159 0

@@ -187,12 +187,12 @@ img.close.show {
 
 /*TABLETT*/
 
-@media (min-width: 382px) and (max-width: 436px) {
+@media (min-width: 436px) and (max-width: 972px) {
   .footer p {
     font-family: Gameplay;
     font-size: 12px;
     font-weight: 100;
-    margin-top: 10px;
+    margin-top: 16px;
   }
 }
 
