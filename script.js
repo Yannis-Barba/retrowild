@@ -1,7 +1,6 @@
-import snakeImg from './assets/snake_game.png';
-import brickImg from './assets/brick_breaker.PNG';
-
 // function to add tiles (new wiki about an old game)
+const brickImg = "assets/brick_breaker.PNG";
+const snakeImg = "assets/snake_game.png";
 
 function createTile(srcImg, title, text) {
   const newTile = document.createElement('div');
