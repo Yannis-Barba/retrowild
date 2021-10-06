@@ -98,7 +98,7 @@ function createForm(){
   newTitle.setAttribute('type', 'text');
   newTitle.setAttribute('id', 'titleForm');
   newTitle.setAttribute('class', 'titleForm');
-  newTitle.setAttribute('placeholder', 'Titre du jeu');
+  newTitle.setAttribute('placeholder', 'Titre du jeu 👾');
 
   newText.setAttribute('id', 'textForm');
   newText.setAttribute('class', 'textForm');
@@ -107,7 +107,7 @@ function createForm(){
   newButton.setAttribute('type', 'button');
   newButton.setAttribute('id', 'submitForm');
   newButton.setAttribute('class', 'submitForm');
-  newButton.setAttribute('value', 'Ajouter une nouvelle Tuile');
+  newButton.setAttribute('value', '🎮 Ajouter votre jeu 🎮');
 
   form.setAttribute('class', 'formAddNewTile');
   form.appendChild(newTitle);
