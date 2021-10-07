@@ -94,6 +94,7 @@ section {
 .dark {
   background-image: url('assets/dark_fond_body.png');
 }
+
 .dark main {
   background: #eddd53;
 }
@@ -110,6 +111,7 @@ section {
 nav.navigation {
   display: none;
 }
+
 
 nav.navigation.active {
   display: flex;
@@ -155,6 +157,10 @@ nav.navigation.active a:hover {
 img.menu.hide {
   display: none;
 }
+
+/* .menu{
+  display: block;
+} */
 
 img.close {
   display: none;

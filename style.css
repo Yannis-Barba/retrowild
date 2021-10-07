@@ -24,11 +24,11 @@ body {
 .containerHome {
   /* flex-grow: 1; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 80px;
   margin: 20px;
 }
 
@@ -60,7 +60,7 @@ body {
 }
 
 .tileTitle {
-  font-family: "Captain";
+  font-family: 'Captain';
   color: var(--third-color);
   font-size: 30px;
 }
@@ -69,21 +69,33 @@ body {
   color: var(--primary-color);
 }
 
-#barMenu {
+#containerButton{
+  order: 1;
   display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  width: 300px;
+  border: var(--primary-color) solid 1px;
+  border-radius: 6px;
+  background-color: rgba(253, 254, 254,0.5);
+  
 }
 
 #buttonAddTile {
   width: 100px;
   height: 100px;
-  position: static;
+  /* position: static; */
   background-color: var(--background-color);
-  border: solid 2px var(--secondary-color);
+  border: solid 4px var(--secondary-color);
   border-radius: 100px;
 }
+
+#buttonAddTile:hover {
+  background-color: #eddd53;
+  border: solid 4px #2a7b9b;
+}
+
 
 .icon {
   height: auto;
@@ -107,4 +119,36 @@ body {
   .tileTitle {
     color: var(--third-color);
   }
+}
+
+/* FORMULAIRE TUILES GÉNÉRÉES PAR L'UTILISATEUR */
+
+/* ATTENTION A PLACER APRÈS LE CSS DE FORM */
+
+/* IMPORTANT LES CLASSES CI-DESSOUS SONT LIÉES AU FORM .Contact.html DONC NE PAS CHANGER FORM EN CLASS */
+
+.formAddNewTile {
+  margin: 3%;
+  padding-top: 20%;
+}
+
+.tileImg {
+}
+
+.formAddNewTile > .titleForm {
+  width: 200px;
+  margin-top: -50px;
+}
+
+.textForm {
+  width: 200px;
+}
+
+.submitForm {
+  width: 200px;
+}
+
+.submitForm:hover {
+  background-color: #eddd53;
+  font-weight: bold;
 }
