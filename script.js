@@ -1,3 +1,21 @@
+/*Top Button*/
+mybutton = document.getElementById("topBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 /*DARK MODE*/
 
 const darkMode = document.getElementById('dark-mode');
@@ -53,25 +71,40 @@ addTile(
   'containerHome',
   brickImg,
   'Brick Breaker',
-  'Texte sur le Brick Breaker'
+`Breakout est un jeu d'arcade dérivé de Pong, commercialisé par Atari. Il s'agit du tout premier jeu de casse-briques. Il fut adapté sur la console en 1978.<br/>
+<br/>Date de sortie initiale : 13 mai 1976<br/>
+  Mode de jeu : 1 à 2 joueurs<br/>
+  Concepteurs : Nolan Bushnell, Steve Wozniak, Steve Bristow`
 );
 
-addTile('containerHome', invaderImg, 'Space Invaders', 'Texte sur le Snake Game');
+addTile('containerHome', invaderImg, 'Space Invaders', `Space Invaders est un jeu vidéo développé par la société japonaise Taito, sorti en 1978 sur borne d'arcade. Il s'agit d'un shoot 'em up fixe. Le principe est de détruire des vagues d'aliens au moyen d'un canon laser en se déplaçant horizontalement sur l'écran.<br/>
+<br/>Date de sortie initiale : 1978<br/>
+Mode de jeu : 1 joueur<br/>
+Concepteur : Tomohiro Nishikado`);
 
 addTile(
   'containerHome',
   pacImg,
   'PacMan',
-  'Texte sur le Brick Breaker'
+  `Pac-Man est un jeu vidéo créé par Tōru Iwatani pour l’entreprise japonaise Namco. Le jeu consiste à déplacer un personnage à l’intérieur d’un labyrinthe, afin de lui faire manger toutes les pac-gommes qui s’y trouvent en évitant d’être touché par des fantômes.<br/>
+  <br/>Date de sortie initiale : 22 mai 1980<br/>
+  Mode de jeu : 1 à 2 joueurs<br/>
+  Concepteur : Tōru Iwatani`
 );
 
-addTile('containerHome', kongImg, 'Donkey Kong', 'Texte sur le Snake Game');
+addTile('containerHome', kongImg, 'Donkey Kong', `Donkey Kong est un jeu vidéo créé par Nintendo. C'est un des premiers jeux de plates-formes. L'intérêt est centré sur le déplacement d'un personnage principal à travers quatre niveaux en évitant des obstacles mouvants.<br/>
+<br/>Date de sortie initiale : 9 juillet 1981<br/>
+Mode de jeu : 1 à 2 joueurs<br/>
+Concepteur :  Shigeru Miyamoto & Gunpei Yokoi`);
 
 addTile(
   'containerHome',
   tetrisImg,
   'Tetris',
-  'Texte sur le Brick Breaker'
+  `Tetris est un jeu vidéo de puzzle. Le joueur doit réaliser des lignes complètes en déplaçant des pièces de formes différentes qui défilent du haut de l'écran jusqu'au bas. Les lignes complétées disparaissent tout en rapportant des points, permettant de remplir les cases libérées.<br/>
+  <br/>Date de sortie initiale : juin 1984<br/>
+  Mode de jeu : 1 joueur<br/>
+  Concepteur :  Alekseï Pajitnov`
 );
 
 const buttonForm = document.querySelector('#buttonAddTile');

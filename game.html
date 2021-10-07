@@ -5,6 +5,7 @@
 	<title>Breakout Game JS</title>
 	<link rel="stylesheet" type="text/css" href="./game.css">
 	<link rel="stylesheet" type="text/css" href="./home.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
 	<link
 	rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -148,13 +149,15 @@
 		</table>
 
 	</div>
-
+	<!--Top Button-->    
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class='fas fa-angle-double-up' style='font-size:24px;color:#eddd53'></i></i></button>
 	
 	<div class=footer>
 		<a href="#"><img class="lnkdnLogo" src="assets/linkedin.svg"></a>
 		<p>© 2021 Copyright: WildCodeSchool/error500</p>
 		<a href="#"><img class="ghLogo" src="assets/github.svg"></a> 
 	</div>
+
 	<script src="script.js"></script>
 	<script>
 		function showMenu() {
@@ -162,7 +165,6 @@
 			document.querySelector(".menu").classList.toggle("hide");
 			document.querySelector(".close").classList.toggle("show");
 		}
-
 	</script>	
 
 </body>
