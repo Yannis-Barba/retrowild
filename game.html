@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Breakout Game JS</title>
 	<link rel="stylesheet" type="text/css" href="./game.css">
-	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rel="stylesheet" type="text/css" href="./home.css">
 	<link
 	rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -22,27 +22,25 @@
 	  
 		<nav class="navigation">
 		  <div class="toggle">
-			<input type="checkbox" class="checkbox" id="dark-mode"/>
+			<input type="checkbox" class="checkbox" id="dark-mode" />
 			<label for="dark-mode" class="label">
-			  <i class="fas fa-moon"></i>
-			  <i class="fas fa-sun"></i>
 			  <div class="ball"></div>
 			</label>
 		  </div>
 	  
-		  <nav class="navigation">
+		  <nav class="navigationBar">
 			  <a href="index.html">Home</a>
 			  <a href="game.html">Game</a>
 			  <a href="about.html">About us</a>
 			  <a href="contact.html">Contact us</a>
 		  </nav>
+		</nav>
 	  
 		<div class="toggleBox">
-		  <a onclick="showMenu()" href="#"
-			><img class="menu" src="assets/burgerMenu.svg" /><img
-			  class="close"
-			  src="assets/closeBtn.svg"
-		  /></a>
+		  <a onclick="showMenu()" href="#">
+			<img class="menu" src="assets/burgerMenu.svg"/>
+			<img class="close" src="assets/closeBtn.svg"/>
+		  </a>
 		</div>
 	  </section>
 	  

@@ -36,7 +36,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding: 16px;
-  width: auto;
+  width: 100%;
   height: 64px;
   background-color: #ffffff;
   border-radius: 0 0 5px 5px;
@@ -120,12 +120,24 @@ nav.navigation.active {
   left: 0px;
   top: 64px;
   width: 100%;
-  height: 100%;
+  height: 107%;
   background-color: #ffffff;
   font-weight: bold;
 }
 
+nav.navigationBar.active {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+}
+
 nav.navigation.active a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 20px;
   transition: color 0.8s ease 0s;
   color: #2a7b9b;
@@ -182,6 +194,7 @@ img.close.show {
   width: 100%;
   height: 48px;
   border-radius: 5px 5px 0 0;
+  bottom: 48px;
 }
 
 .footer img {
@@ -214,6 +227,8 @@ img.close.show {
 @media only screen and (min-width: 991px) {
   nav.navigation {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .toggle {
@@ -228,7 +243,11 @@ img.close.show {
     margin-left: 20px;
   }
 
-  nav.navigation a {
+  nav.navigationBar.active {
+    display: none;
+  }
+
+  nav.navigationBar a {
     font-size: 20px;
     transition: color 0.8s ease 0s;
     color: #2a7b9b;
@@ -237,6 +256,7 @@ img.close.show {
     font-weight: bold;
     text-decoration: none;
     margin-right: 20px;
+ 
   }
 
   nav.navigation a:hover {
