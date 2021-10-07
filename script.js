@@ -10,6 +10,10 @@ darkMode.addEventListener('change', () => {
 // function to add tiles (new wiki about an old game)
 const brickImg = "assets/brick_breaker.PNG";
 const snakeImg = "assets/snake_game.png";
+const pacImg = "assets/rsz_pac-man.png";
+const invaderImg = "assets/rsz_space_invaders.jpg";
+const kongImg = "assets/rsz_donkey.png";
+const tetrisImg = "assets/rsz_tetris.jpg";
 
 function createTile(srcImg, title, text) {
   const newTile = document.createElement('div');
@@ -52,25 +56,23 @@ addTile(
   'Texte sur le Brick Breaker'
 );
 
-addTile('containerHome', snakeImg, 'Snake Game', 'Texte sur le Snake Game');
+addTile('containerHome', invaderImg, 'Space Invaders', 'Texte sur le Snake Game');
 
 addTile(
   'containerHome',
-  brickImg,
-  'Brick Breaker',
+  pacImg,
+  'PacMan',
   'Texte sur le Brick Breaker'
 );
 
-addTile('containerHome', snakeImg, 'Snake Game', 'Texte sur le Snake Game');
+addTile('containerHome', kongImg, 'Donkey Kong', 'Texte sur le Snake Game');
 
 addTile(
   'containerHome',
-  snakeImg,
-  'Brick Breaker',
+  tetrisImg,
+  'Tetris',
   'Texte sur le Brick Breaker'
 );
-
-addTile('containerHome', snakeImg, 'Snake Game', 'Texte sur le Snake Game');
 
 const buttonForm = document.querySelector('#buttonAddTile');
 buttonForm.addEventListener('click', () => {
