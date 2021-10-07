@@ -111,6 +111,7 @@ nav.navigation {
   display: none;
 }
 
+
 nav.navigation.active {
   display: flex;
   justify-content: center;
@@ -143,6 +144,10 @@ nav.navigation.active a:hover {
 img.menu.hide {
   display: none;
 }
+
+/* .menu{
+  display: block;
+} */
 
 img.close {
   display: none;

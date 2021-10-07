@@ -11,7 +11,6 @@ ctx.arc = Balle
 
 
 
-
 /* CANVAS */ 
 
 let canvas = document.getElementById('myCanvas');
@@ -24,8 +23,9 @@ let ctx = canvas.getContext('2d');
 /* DEPLACEMENT DE LA BALLE */
 let x = canvas.width/2;
 let y = canvas.height  - 30;
-let dx = 6;
-let dy = -6;
+let vitesse = 4;
+let dx = vitesse;
+let dy = -vitesse;
 let ballRadius = 10;
 let paddleHeight = 10;
 let paddleWidth = 70;
@@ -41,6 +41,7 @@ let brickOffsetTop = 30;
 let brickOffsetLeft = 30;
 let score = 0;
 let lives = 3;
+let maxscore = 0;
 
 
 let bricks = [];
@@ -48,6 +49,7 @@ for (c=0; c<brickColumnCount; c++){
 	bricks[c] = [];
 	for(r=0; r<brickRowCount; r++){
 		bricks[c][r] = {x:0, y:0, status:Math.floor(Math.random()*3 +1)}
+		maxscore += bricks[c][r].status;
 	}
 }
 
@@ -55,6 +57,7 @@ for (c=0; c<brickColumnCount; c++){
 
 document.addEventListener("keydown", keyDownHandler);
 document.addEventListener("keyup", keyUpHandler);
+
 
 function keyDownHandler(e){
 	if (e.keyCode === 39){
@@ -134,7 +137,7 @@ function collisionDect(){
 					dy = -dy;
 					b.status = b.status-1;
 					score ++;
-					if(score == brickRowCount*brickColumnCount){ 
+					if(score == maxscore){ 
 						alert("YOU WIN!!!");
 						document.location.reload();
 					}
@@ -185,8 +188,8 @@ function draw(){
 			} else{
 				x = canvas.width/2;
 				y = canvas.height-30;
-				dx = 2;
-				dy = -2;
+				dx = vitesse;
+				dy = -vitesse;
 				paddleX = (canvas.width - paddleWidth)/2;
 			}
 		}
@@ -218,6 +221,26 @@ function mouseMoveHandler(e){
 
 draw();
 
+// let button = document.querySelector('#buttonChangeSpeed');
+// button.addEventListener('click', (e) => {
+// 	let input = document.querySelector("#changeSpeed");
+// 	console.log("test");
+// 	vitesse = input.value;
+// 	console.log(vitesse);
+// 	dx = vitesse;
+// 	dy = -vitesse;
+// 	e.preventDefault();
+// })
+
+// function changeSpeed(){
+// 	let input = document.querySelector("#changeSpeed");
+// 	console.log("test");
+// 	console.log(input);
+// 	vitesse = input.value;
+// 	console.log(vitesse);
+// 	dx = vitesse;
+// 	dy = -vitesse;
+// }
 
 //      ETABLIR FONCTION SCORE ! 
 
