@@ -5,20 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="github.css" />
     <link rel="stylesheet" href="home.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
 
-    <title>RetroWild Homepage</title>
+    <title>GitHub Links</title>
   </head>
   <body>
     <!--Header-->
     <section>
       <div class="logo">
-        <a class="logo" href="index.html"><img src="assets/rwLogo2.png" alt="logo" /></a>
+        <a class="logo" href="#"><img src="assets/rwLogo2.png" alt="logo" /></a>
       </div>
       
       <nav class="navigation">
@@ -44,16 +44,36 @@
         </a>
       </div>
       </section>
-    
-    <!--gameFrames-->
-    <div id="page">
-      <div id="containerHome" class="containerHome">
-        <div id="containerButton" class="containerButton">
-          <button id="buttonAddTile"><i class="fas fa-plus icon"></i></button>
-        </div>
-        
-      </div>
 
+    <h1 class="githubTitle">GITHUB</h1>
+    
+    <!--GITHUB CARDS-->
+    <div id="pageGithub">
+
+      <div id="containerGithub" class="containerGithub">
+
+        <div class="cardGithub">
+          <i class="fab fa-github social-icon"></i>
+          <p>KALIL BELGOUMRI</p>
+          <a  class="githubLink" href="https://github.com/kalilBelgoumri">github.com</a>
+        </div>
+        <div class="cardGithub">
+          <i class="fab fa-github social-icon"></i>
+          <p>YANNIS BARBA</p>
+          <a  class="githubLink" href="https://github.com/Yannis-Barba">github.com</a>
+        </div>
+        <div class="cardGithub">
+          <i class="fab fa-github social-icon"></i>
+          <p>EDER GONCALVES</p>
+          <a  class="githubLink" href="https://github.com/Dr-Wouse">github.com</a>
+        </div>
+        <div class="cardGithub">
+          <i class="fab fa-github social-icon"></i>
+          <p>WILLIAM <br>LOUIS-LOUISY</p>
+          <a  class="githubLink" href="https://github.com/William-Louis-Louisy">github.com</a>
+        </div>
+
+      </div>
 
     </div>
 
@@ -64,15 +84,13 @@
       <a href="github.html"><img class="ghLogo" src="assets/github.svg"></a> 
   </div>
 
-    
+    <script src="script.js"></script>
     <script>
       function showMenu() {
         document.querySelector('.navigation').classList.toggle('active');
         document.querySelector('.menu').classList.toggle('hide');
         document.querySelector('.close').classList.toggle('show');
-        console.log(showMenu);
       }
     </script>
-    <script src="script.js"></script>
   </body>
 </html>
