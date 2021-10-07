@@ -94,6 +94,7 @@ section {
 .dark {
   background-image: url('assets/dark_fond_body.png');
 }
+
 .dark main {
   background: #eddd53;
 }
