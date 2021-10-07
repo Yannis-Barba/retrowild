@@ -4,7 +4,7 @@ const darkMode = document.getElementById('dark-mode');
 
 darkMode.addEventListener('change', () => {
   document.body.classList.toggle('dark');
-  console.log("clicked");
+  console.log('clicked');
 });
 
 // function to add tiles (new wiki about an old game)
@@ -75,32 +75,44 @@ addTile(
 );
 
 const buttonForm = document.querySelector('#buttonAddTile');
+
 buttonForm.addEventListener('click', () => {
   const container = document.querySelector('#containerHome');
+  console.log('clicked');
   const divForm = createForm();
   container.appendChild(divForm);
 
   const buttonSubmitForm = document.querySelector('.submitForm');
-  buttonSubmitForm.addEventListener('click', getFormContent('.formAddNewTile'));
-})
+  // buttonSubmitForm.addEventListener('click', getFormContent('.formAddNewTile'));
+  buttonSubmitForm.addEventListener('click', () => {
+    console.log('clicked button form');
+    const newTile = getFormContent('.formAddNewTile');
+    console.log(newTile);
+    addTile('containerHome', newTile.img, newTile.title, newTile.text);
+    container.removeChild(divForm);
+  });
 
-// create a form 
+});
 
-function createForm(){
+// create a form
+
+function createForm() {
   const divForm = document.createElement('div');
   const form = document.createElement('form');
   const newImg = document.createElement('img');
   const newTitle = document.createElement('input');
-  const newText = document.createElement('textarea'); 
+  const newText = document.createElement('textarea');
   const newButton = document.createElement('input');
 
   newImg.src = snakeImg;
+  console.log(newImg);
   newImg.setAttribute('class', 'tileImg');
+  newImg.setAttribute('id', 'imgForm');
 
   newTitle.setAttribute('type', 'text');
   newTitle.setAttribute('id', 'titleForm');
   newTitle.setAttribute('class', 'titleForm');
-  newTitle.setAttribute('placeholder', 'Titre du jeu');
+  newTitle.setAttribute('placeholder', 'Titre du jeu 👾');
 
   newText.setAttribute('id', 'textForm');
   newText.setAttribute('class', 'textForm');
@@ -109,7 +121,7 @@ function createForm(){
   newButton.setAttribute('type', 'button');
   newButton.setAttribute('id', 'submitForm');
   newButton.setAttribute('class', 'submitForm');
-  newButton.setAttribute('value', 'Ajouter une nouvelle Tuile');
+  newButton.setAttribute('value', '🎮 Ajouter votre jeu 🎮');
 
   form.setAttribute('class', 'formAddNewTile');
   form.appendChild(newTitle);
@@ -123,22 +135,22 @@ function createForm(){
   return divForm;
 }
 
-// add a tile thanks to the form 
+// add a tile thanks to the form
 
-function getFormContent(classForm){
+function getFormContent(classForm) {
   // return an object with a new image, a text and a description of a game
   const form = document.querySelector(classForm);
-  const img = form.querySelector('img');
-  const title = form.querySelector('titleForm');
-  const text = form.querySelector('textForm');
+  const img = document.querySelector('#imgForm');
+  const title = form.querySelector('.titleForm');
+  const text = form.querySelector('.textForm');
+
+  console.log(title, title.value);
 
   const newTile = {
-    img: img.src, 
-    title: title.value, 
-    text: text.value
+    img: img.src,
+    title: title.value,
+    text: text.value,
   };
-
+  console.log(newTile);
   return newTile;
 }
-
-
