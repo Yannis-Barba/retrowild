@@ -4,12 +4,12 @@ const darkMode = document.getElementById('dark-mode');
 
 darkMode.addEventListener('change', () => {
   document.body.classList.toggle('dark');
-  console.log("clicked");
+  console.log('clicked');
 });
 
 // function to add tiles (new wiki about an old game)
-const brickImg = "assets/brick_breaker.PNG";
-const snakeImg = "assets/snake_game.png";
+const brickImg = 'assets/brick_breaker.PNG';
+const snakeImg = 'assets/snake_game.png';
 
 function createTile(srcImg, title, text) {
   const newTile = document.createElement('div');
@@ -80,16 +80,16 @@ buttonForm.addEventListener('click', () => {
 
   const buttonSubmitForm = document.querySelector('.submitForm');
   buttonSubmitForm.addEventListener('click', getFormContent('.formAddNewTile'));
-})
+});
 
-// create a form 
+// create a form
 
-function createForm(){
+function createForm() {
   const divForm = document.createElement('div');
   const form = document.createElement('form');
   const newImg = document.createElement('img');
   const newTitle = document.createElement('input');
-  const newText = document.createElement('textarea'); 
+  const newText = document.createElement('textarea');
   const newButton = document.createElement('input');
 
   newImg.src = snakeImg;
@@ -121,9 +121,9 @@ function createForm(){
   return divForm;
 }
 
-// add a tile thanks to the form 
+// add a tile thanks to the form
 
-function getFormContent(classForm){
+function getFormContent(classForm) {
   // return an object with a new image, a text and a description of a game
   const form = document.querySelector(classForm);
   const img = form.querySelector('img');
@@ -131,12 +131,10 @@ function getFormContent(classForm){
   const text = form.querySelector('textForm');
 
   const newTile = {
-    img: img.src, 
-    title: title.value, 
-    text: text.value
+    img: img.src,
+    title: title.value,
+    text: text.value,
   };
 
   return newTile;
 }
-
-

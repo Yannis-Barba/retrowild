@@ -15,6 +15,8 @@
   font-family: 'Gameplay', sans-serif;
 }
 
+
+
 #myCanvas {
   background-color: #000000ec;
   display: block;
@@ -30,6 +32,7 @@
   margin-bottom: -7%;
   font-family: 'Gameplay', sans-serif;
   font-size: 35px; 
+
 }
 
 
@@ -85,6 +88,7 @@ td {
   animation-fill-mode: both;
   -webkit-animation-iteration-count: infinite ;
 }
+
 @-webkit-keyframes flash {
   0%,
   50%,
@@ -111,3 +115,19 @@ td {
   }
 }
 
+/* DARK MODE */
+.dark {
+  background-image: url('assets/dark_fond_body.png');
+  color: #2a7b9b; 
+}
+
+.dark main {
+  background: #eddd53;
+}
+.dark .label {
+  box-shadow: 2px 1px 1px #eddd53;
+  background: #888;
+}
+.dark .ball {
+  background: #eddd53;
+}
