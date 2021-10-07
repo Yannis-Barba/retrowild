@@ -73,13 +73,23 @@ addTile(
 addTile('containerHome', snakeImg, 'Snake Game', 'Texte sur le Snake Game');
 
 const buttonForm = document.querySelector('#buttonAddTile');
+
 buttonForm.addEventListener('click', () => {
   const container = document.querySelector('#containerHome');
+  console.log('clicked');
   const divForm = createForm();
   container.appendChild(divForm);
 
   const buttonSubmitForm = document.querySelector('.submitForm');
-  buttonSubmitForm.addEventListener('click', getFormContent('.formAddNewTile'));
+  // buttonSubmitForm.addEventListener('click', getFormContent('.formAddNewTile'));
+  buttonSubmitForm.addEventListener('click', () => {
+    console.log('clicked button form');
+    const newTile = getFormContent('.formAddNewTile');
+    console.log(newTile);
+    addTile('containerHome', newTile.img, newTile.title, newTile.text);
+    container.removeChild(divForm);
+  });
+
 });
 
 // create a form
@@ -93,7 +103,9 @@ function createForm() {
   const newButton = document.createElement('input');
 
   newImg.src = snakeImg;
+  console.log(newImg);
   newImg.setAttribute('class', 'tileImg');
+  newImg.setAttribute('id', 'imgForm');
 
   newTitle.setAttribute('type', 'text');
   newTitle.setAttribute('id', 'titleForm');
@@ -126,15 +138,17 @@ function createForm() {
 function getFormContent(classForm) {
   // return an object with a new image, a text and a description of a game
   const form = document.querySelector(classForm);
-  const img = form.querySelector('img');
-  const title = form.querySelector('titleForm');
-  const text = form.querySelector('textForm');
+  const img = document.querySelector('#imgForm');
+  const title = form.querySelector('.titleForm');
+  const text = form.querySelector('.textForm');
+
+  console.log(title, title.value);
 
   const newTile = {
     img: img.src,
     title: title.value,
     text: text.value,
   };
-
+  console.log(newTile);
   return newTile;
 }

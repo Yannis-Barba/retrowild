@@ -24,7 +24,7 @@ body {
 .containerHome {
   /* flex-grow: 1; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -69,17 +69,23 @@ body {
   color: var(--primary-color);
 }
 
-#barMenu {
+#containerButton{
+  order: 1;
   display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 450px;
+  width: 300px;
+  border: var(--primary-color) solid 1px;
+  border-radius: 6px;
+  background-color: rgba(253, 254, 254,0.5);
+  
 }
 
 #buttonAddTile {
   width: 100px;
   height: 100px;
-  position: static;
+  /* position: static; */
   background-color: var(--background-color);
   border: solid 4px var(--secondary-color);
   border-radius: 100px;
