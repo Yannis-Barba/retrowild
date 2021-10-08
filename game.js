@@ -43,6 +43,7 @@ let score = 0;
 let lives = 3;
 let maxscore = 0;
 
+let scoreStored = localStorage.setItem('score', score);
 
 let bricks = [];
 for (c=0; c<brickColumnCount; c++){
@@ -137,9 +138,11 @@ function collisionDect(){
 					dy = -dy;
 					b.status = b.status-1;
 					score ++;
+					scoreStored = localStorage.setItem('score', score);
 					if(score == maxscore){ 
 						alert("YOU WIN!!!");
 						document.location.reload();
+
 					}
 				}
 			}
@@ -183,6 +186,8 @@ function draw(){
 		} else {
 			lives--;
 			if(!lives){
+				scoreStored = localStorage.getItem('score', score);
+				affichageScore(scoreStored);
 				alert("GAME OVER");
 				document.location.reload();
 			} else{
@@ -220,6 +225,12 @@ function mouseMoveHandler(e){
 }
 
 draw();
+
+function affichageScore(score){
+	let td = document.querySelector('#player');
+	console.log(td);
+	td.innerHTML = score; 
+}
 
 // let button = document.querySelector('#buttonChangeSpeed');
 // button.addEventListener('click', (e) => {
